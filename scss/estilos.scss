@@ -1,0 +1,99 @@
+@import "variables";
+footer{
+    .pagos__titulos {
+        
+        font-size: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        align-items: stretch;
+        h2 {
+            text-align: left;
+        }
+    }
+}
+footer{
+    section {
+        .pagos__metodos {
+            img {
+                width: 300px;
+                margin: 0;
+                height: auto; 
+            }
+        }
+    }
+}
+footer {
+    background-color: rgb(2, 2, 41);
+    .footer__horarios {
+        .footer__horarios__lista3 {
+            background-color: rgb(9, 9, 78);
+            border: 3px $colorDefault;
+            border-style: solid;
+            width: 200px;
+            height: 120px;
+            color: $colorDefault;
+            list-style: none;
+            font-size: 15px;
+            line-height: 1.5;
+            text-align: left;  
+            margin-top: 10px; 
+        }
+    }
+}
+footer {
+    .footer__title {
+        font-size: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        align-items: stretch;
+    }
+    }
+
+
+
+/* condicionales */
+
+
+$bgMain: dark;
+$bgSecond: light;
+
+header {
+
+    border: $borderDivisor;
+
+    @if $bgMain == dark {
+    background: #020229;
+    display: flex;
+    justify-content: space-between;
+    }
+}
+footer .horaios {
+
+    @if $bgSecond == light {
+
+        border: $borderDivisor;
+        font-size: 20px;
+        width: 100%;
+        padding: 20px;
+            
+        
+    }
+}
+
+/* maps */ 
+
+/* $color-fondo: (
+    1: red,
+    2: blue,
+    3: aqua,
+)
+
+@each $nombre, $valor in $color-fondo {
+    .bgd-#{$nombre} {
+        background-color:$valor ;
+    }
+    
+}
+*/

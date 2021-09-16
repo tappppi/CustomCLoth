@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: cornsilk;
+}
+.logo {
+    border-bottom: cornsilk solid 0.10rem;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: inherit;
+    animation-delay: 400ms;
+    animation-duration: 300ms;
+    background-image: linear-gradient(to right, rgb(14, 14, 102), rgb(2, 2, 41), black);
+    display: flex
+
+    
+
+}
+nav { 
+    background: #09094e;
+}
+.containerPrincipal {
+    
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+    background-color: #020229;
+}
+.lista2 {
+    color: cornsilk;
+    list-style: none;
+    padding: 1rem;
+}
+
+body {
+    background: gray;
+}
+header .header__menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__menu ul li a:hover {
+    background: black;
+    padding: 1rem;
+}
+header .header__menu ul li {
+    display: inline;
+
+
+}
+header .header__menu ul li a {
+    text-decoration: none;
+    color: cornsilk;
+    background: #09094e;
+    padding: 1rem;
+    transition: all 350ms;
+}
+h2 {
+    color: cornsilk;
+}
+
+h3 {
+    color: cornsilk;
+}
+
+
+footer .horarios {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    
+    
+}
+ .pagos__metodos {
+    font-size: 20px;
+    justify-content: center;
+    border-top: 0.10rem solid cornsilk;
+    
+}
+#pagos .pagos__metodos {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.10rem solid cornsilk;
+}
+
+    /* GRID-AREA */
+
+.containerGrids {
+    background: rgb(2, 2, 41);
+}
+.imagen2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.ofertasTitulo {  
+    border: cornsilk solid 2px;
+    background: rgb(14, 14, 102); 
+    padding-bottom: 0.1rem;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.containerImagen {
+    display: flex;
+    justify-content: flex-end;
+}
+.filaLista {
+    width: 47rem;
+    max-width: 60rem;
+    background: rgb(9, 9, 78);
+    border: cornsilk 2px solid;
+}
+.filaLista div {
+    display: flex;
+    text-align: center;
+}
+.filaLista div ul li {
+    display: inline;
+    flex-flow: wrap row;
+}
+.segundaFila {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+#containerAreas {
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    ". . . "
+    "lista lista .";
+    grid-template-rows: auto 12.813rem auto;
+    grid-template-columns: 21.875rem 12.5rem auto;
+    row-gap: 0.313rem;
+    column-gap: 0.313rem;
+    
+}
+#titulosOfertas {
+    grid-area: titulo;
+    border: cornsilk solid 0.188rem;
+    padding: 0.938rem;
+    background-image: linear-gradient(to right blue, rgb(2, 2, 41));
+    
+}
+.divLista {
+    grid-area: lista;
+    background: black;
+    border: cornsilk solid 3px;
+    background-image: linear-gradient(to right blue, rgb(2, 2, 41));
+}
+#foto {
+    height: 200px;
+    width: 350px;
+    transition: all 1s;
+    cursor: pointer;
+}
+#foto:hover {
+    transform: scale(1.10, 1.10);
+}
+.imagenPromocional {
+    grid-area: img;
+}
+#foto2 {
+    grid-area: imgDos;
+    width: 200px; 
+    height: 200px;
+    transition: all 1s;
+    cursor: pointer;
+    
+}
+#foto2:hover {
+    transform: scale(1.10, 1.10);
+}
+
+/* Contactanos */
+body {
+    color: cornsilk;
+    font-family: sans-serif;
+}
+.formularioMain {
+    background-color: rgb(9, 9, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: cornsilk 3px solid;
+    
+}
+.requisitoFormulario {
+    display: flex;
+    justify-content: center;
+}
+.listaContactanos {
+    color: cornsilk;
+    background: rgb(9, 9, 78);
+    border: 3px solid cornsilk;
+    border-top: black;
+}
+.listaContactanos ul {
+display: flex;
+justify-content: center;
+list-style: none;
+}
+.listaContactanos ul li {
+    padding: 10px;
+    border: 3px cornsilk solid;
+    margin: 20px;
+    background: gray;
+}
+
+/* Conjuntos */
+.outfitTitle {
+    
+    background-image: linear-gradient(to right, rgb(14, 14, 102), rgb(2, 2, 41), black);
+border-bottom: cornsilk solid 1px;
+}
+.navegacionOutfit {
+    padding: 0.2rem;
+    border-bottom: cornsilk 1px solid;
+}
+.navegacionOutfit ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navegacionOutfit ul li {
+display: inline;
+}
+.navegacionOutfit ul li a {
+    text-decoration: none;
+    color: cornsilk;
+    transition: all 350ms;
+}
+.navegacionOutfit ul li a:hover {
+    background: black;
+    padding: 12px;
+}
+
+.subtitleOutfit {
+    max-width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    border: cornsilk solid 1px;
+
+}
+.containerSection {
+    background: rgb(2, 2, 41);
+    height: 50rem;
+}
+.carouselEjemplo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.carousel-item {
+    height: 20rem;
+    max-width: 10rem;
+}
+#carouselExampleControls {
+    max-width: 10rem;
+    
+}
+
+/* prodcutos */
+
+ body {
+    background-color: rgb(14, 14, 102);
+    color: cornsilk;
+    font-family: sans-serif;
+}
+.logo {
+    border-bottom: cornsilk solid 1px;
+}
+.remeras {
+    padding: 20px;
+    background: rgb(14, 14, 102);
+}
+
+.remeras ul {
+    display: block
+}
+.tablaTalles {
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px; ;
+    background: rgb(14, 14, 102);
+    
+}
+.itemTabla {
+    padding: 10px;
+    border: cornsilk 2px solid;
+    background: rgb(14, 14, 102);
+}
+#home {
+    color: cornsilk;
+    font-size: 20px;
+    border: solid cornsilk 3px;
+    background-color: gray;
+    padding: top 5px;
+    background: #0e0e66;
+}
+h2 {
+    padding-left: 20px;
+    
+}
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+.containerRemeras {
+    display: flex;
+    background: rgb(14, 14, 102);
+}
+ 
+/* nosotros */
+
+.tituloMain {
+    background-image: linear-gradient(to right blue, rgb(2, 2, 41));
+    display: inline;
+}
+.encabezadoNosotros {
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.containerNosotros {
+    height: 40rem;
+    background: #020229;
+    display: flex;
+
+}
+.textoBloque {
+    height: 10rem;
+    background: rgb(9, 9, 78);
+    padding: auto;
+    display: flex;
+    align-items: center;
+    border: cornsilk solid 3px;
+
+}
+.containerTexto {
+   margin-top: 2rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.map iframe{
+    margin-top: 70px;
+}
+.tituloSecundario {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    color: cornsilk;
+}
+h2#homeNosotros {
+    color: cornsilk;
+}
+h2 {
+    color: cornsilk;
+}
+p {
+    color: cornsilk;
+    padding: 20px;
+}
+#map {
+    padding: 20px;
+}
+
+

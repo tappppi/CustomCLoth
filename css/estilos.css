@@ -1,0 +1,75 @@
+/* variables */
+footer .pagos__titulos {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+footer .pagos__titulos h2 {
+  text-align: left;
+}
+
+footer section .pagos__metodos img {
+  width: 300px;
+  margin: 0;
+  height: auto;
+}
+
+footer {
+  background-color: #020229;
+}
+
+footer .footer__horarios .footer__horarios__lista3 {
+  background-color: #09094e;
+  border: 3px cornsilk;
+  border-style: solid;
+  width: 200px;
+  height: 120px;
+  color: cornsilk;
+  list-style: none;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 10px;
+}
+
+footer .footer__title {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+/* condicionales */
+header {
+  border: solid cornsilk 0.1rem;
+  background: #020229;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* maps */
+/*# sourceMappingURL=estilos.css.map */
